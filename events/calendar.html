@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <!--
+      Final Project
+
+      Author: Al Morris, Jeremey King
+      Date:   
+   -->
+   <meta charset="utf-8" />
+   <meta name="viewport" content="width=device-width,initial-scale=1.0">
+   <title>EARLY BIRD SWAP MEET SILVER DOLLAR PUB</title>
+   <link rel="stylesheet" href="../Styles/calendarStyle.css" />
+   <script src="../events/calendar.js" defer></script>
+</head>
+
+<body>
+<div class="containers">
+<header>
+      
+         <h1>
+            Silver Dollar Sales Presents
+         </h1>
+        <h2>Early Bird Swap Meet &amp; Bargain Fair!</h2>
+        
+        <nav id="navbar">
+            <ul style="list-style-type: none; display: flex; justify-content: space-around; background-color: black; padding: 10px;">
+                <li><a href="../index.html" style="text-decoration: none; padding: 10px;">Home</a></li>
+                <li><a href="../events/calendar.html" style="text-decoration: none; padding: 10px;">Upcoming Events</a></li>
+                <li><a href="../contact/contact.html" style="text-decoration: none; padding: 10px;">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    </br> </br>
+    <main>
+    <div class="container">
+      <div class="header">
+        <div id="month"></div>
+        <div>
+          <button id="btnBack"><i class="fa fa-angle-left"></i>Back</button>
+          <button id="btnNext"><i class="fa fa-angle-right"></i>Next</button>
+        </div>
+      </div>
+      <div class="weekdays">
+        <div>Sun</div>
+        <div>Mon</div>
+        <div>Tue</div>
+        <div>Wed</div>
+        <div>Thu</div>
+        <div>Fri</div>
+        <div>Sat</div>
+      </div>
+      <div id="calendar"></div>
+    </div>
+
+    <div id="modal"></div>
+    <div id="viewEvent">
+      <h2>Event</h2>
+        <p type="text" id="eventText"></p>
+        <p type= "text" id="eventDate"></p>
+        <p type= "text" id="eventDescription"></p>
+      <button class="btnClose">Close</button>
+    </div>
+</main>
+  <footer>&copy Early Bird Swap Meet. All rights reserved. Al Morris, Jeremey King</footer>
+    </div>
+</body>

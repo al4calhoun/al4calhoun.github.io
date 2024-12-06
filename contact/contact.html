@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!--
+      Final Project
+
+      Author: Al Morris, Jeremey King
+      Date:
+   -->
+   
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Early Bird Swap Meet</title>
+    <link rel="stylesheet" href="../Styles/styles.css">
+</head>
+<body>
+    <div class="container">
+    <header>
+         <h1>
+            Silver Dollar Sales Presents
+         </h1>
+            <h2>Early Bird Swap Meet &amp; Bargain Fair!</h2>
+            <nav id="navbar">
+                <ul style="list-style-type: none; display: flex; justify-content: space-around; background-color: black; padding: 10px;">
+                    <li><a href="../index.html" style="text-decoration: none; padding: 10px;">Home</a></li>
+                    <li><a href="../events/calendar.html" style="text-decoration: none; padding: 10px;">Upcoming Events</a></li>
+                    <li><a href="../contact/contact.html" style="text-decoration: none; padding: 10px;">Contact Us</a></li>
+                </ul>
+            </nav>
+    </header>
+
+    <main style="padding: 20px;">
+        <h1 style="text-align: center;">Contact Us</h1>
+        <form action="#" method="post" style="display: flex; flex-direction: column; gap: 10px; max-width: 500px; margin: auto;">
+            <label for="from">From:</label>
+            <input type="email" id="from" name="from" placeholder="Your email" required>
+
+            <label for="subject">Subject:</label>
+            <input type="text" id="subject" name="subject" placeholder="Subject" required>
+
+            <label for="to">To:</label>
+            <input type="email" id="to" name="to" value="support@earlybirdswapmeet.com" readonly>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="10" placeholder="Your message" required></textarea>
+
+            <button type="submit" style="padding: 10px; background-color: #5c85d6; color: white; border: none; cursor: pointer;">Send</button>
+        </form>
+    </main>
+
+  <footer>&copy Early Bird Swap Meet. All rights reserved.Al Morris, Jeremey King</footer>
+</div>
+</body>
+</html>
